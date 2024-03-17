@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
+  //I use the Geolocation API to catch the current user's position
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
+      
       async function (position) {
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
