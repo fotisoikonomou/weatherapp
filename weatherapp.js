@@ -84,14 +84,14 @@ document.addEventListener("DOMContentLoaded", function () {
               "url(http://openweathermap.org/img/w/01n.png)";
           }
         } catch (error) {
-          console.error("Error fetching the weather data: ", error);
+          console.error("Error in the fetching: ", error);
         }
       },
       function (error) {
-        console.error("Geolocation error: ", error);
+        console.error("Error in the Geolocation: ", error);
       }
     );
   } else {
-    console.log("Geolocation is not supported by this browser.");
+    console.log("You have to use a browser that supports geolocation!!");
   }
 });
