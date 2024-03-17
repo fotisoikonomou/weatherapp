@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
           lat +
           "&lon=" +
           long +
-          "&appid=89a532a21aa65995198edd25fb4c495d";
+          "&appid=your_free_key";
 
         try {
           let response = await fetch(api);
