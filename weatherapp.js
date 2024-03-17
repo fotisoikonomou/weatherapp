@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
           let response = await fetch(api);
           let data = await response.json();
-          var fTemp;
+          let fTemp;
           let cTemp;
           let kTemp;
           let city;
