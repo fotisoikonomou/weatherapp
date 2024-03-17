@@ -6,8 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       async function (position) {
         var lat = position.coords.latitude;
         var long = position.coords.longitude;
-        console.log(long);
-        console.log(lat);
+      
         var api =
           "http://api.openweathermap.org/data/2.5/weather?lat=" +
           lat +
